@@ -1,0 +1,38 @@
+html {
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+	font-family:monospace;
+	font-size:17px;
+}
+
+a {
+	text-decoration: none !important;
+	color:white;
+}
+
+ul {
+	list-style: none;
+}
+
+.letter__correct {
+	color: green;
+}
+
+.letter__incorrect {
+	color: red;
+}
+.typing__cursor {
+	border-bottom: 4px solid black;
+}
